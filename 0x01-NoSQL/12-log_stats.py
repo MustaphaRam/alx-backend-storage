@@ -13,6 +13,7 @@ from pymongo import MongoClient
 METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 
 
+
 def log_stats(mongo_collection, option=None):
     """
     Prototype: def log_stats(mongo_collection, option=None):
